@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/130fd66d00.css" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="site.css">
+    <title>Projects - BackOffice Alpha Portal</title>
+</head>
+<body>
+    <div class="backoffice-wrapper">
+        <aside id="sidebar">
+            <section class="logotype">
+                <a href="">
+                    <img src="images/logotype/alphaLogotype.svg" alt="alpha">
+                    <span>alpha</span>
+                </a>
+            </section>
+
+            <section class="nav-links">
+                <a href="projects.html" class="nav-link active">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <span>Projects</span>
+                    
+                </a>
+                <a href="" class="nav-link">
+                    <i class="fa-solid fa-handshake"></i>
+                    <span>Clients</span>
+                    
+                </a>
+                <a href="" class="nav-link">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Members</span>
+                    
+                </a>
+
+            </section>
+
+
+        </aside>
+
+        <main>
+
+            <header id="header">
+                <form class="search-form" mehtod="get" asp-controller="" asp-action="" novalidate>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" class="form-search-input" placeholder="Search anything..."/>
+                </form>
+                <div class="notification-container">
+                    <button type="button" data-type="dropdown" data-target="#notification-dropdown" class="btn-notification">
+                    <i class="dot dot-red fa-solid fa-circle hide"></i>
+                    <i class="fa-solid fa-bell"></i>
+
+                    <div id="#notification-dropdown" class="dropdown hide">
+                        <div class="dropdown-header">
+                            <h4>Notifications</h4>
+                            <div class="number-of-notifications">0</div>
+                        </div>
+                    </div>
+                </button>
+                </div>
+                <div class="account-container">
+                    <button type="button" data-type="dropdown" data-target="#account-dropdown" class="btn-account">
+                        <img src="images/icons/avatar.svg" alt="avatar">
+                    </button>
+
+                    <div id="#account-dropdown" class="dropdown">
+                        <div class="dropdown-header">
+                        
+                        </div>
+                    </div>
+                </div>
+                
+            </header>
+            <div id="main">
+                content
+            </div>
+        </main>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/130fd66d00.js" crossorigin="anonymous"></script>
+    <script src="site.js"></script>
+</body>
+</html>

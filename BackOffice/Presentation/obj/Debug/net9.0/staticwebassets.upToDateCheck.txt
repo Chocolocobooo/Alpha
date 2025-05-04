@@ -1,0 +1,6 @@
+C:\Users\Choco\source\repos\BackOffice\Presentation\wwwroot\css\site.css
+C:\Users\Choco\source\repos\BackOffice\Presentation\wwwroot\favicon.ico
+C:\Users\Choco\source\repos\BackOffice\Presentation\wwwroot\js\site.js
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\js\site.js
